@@ -26,7 +26,20 @@ end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
+weather = "icy"
 
+if weather == "sunny"
+  p "sunscreen"
+elsif weather == "rainy"
+  p "umbrella"
+elsif weather == "snowy"
+  p "coat"
+elsif weather == "icy"
+  p "yak traks"
+else
+  p "good to go!"
+end
+# this will print out yak traks
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -40,11 +53,14 @@ end
 
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
+#below is my code for the gumballs
+num_quarters = 1
 
-num_quarters = 0
+if num_quarters >= 1
+    puts " i have enough money for a gumball"
+else puts " i dont have enough money for a gumball"
+end
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
 
 
 #####################
@@ -61,5 +77,12 @@ puts "I don't have enough money for a gumball"
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
+
+#You can change the variable in the data type and it will output on the terminal i can make pizza or i cannot based on the if the if statements conditionals meet the variable assignments rules
 cups_of_flour = 1
-has_sauce = true
+has_sauce = "no"
+
+if cups_of_flour > 0 && has_sauce == "yes"
+    puts "i can make pizza"
+else puts " i cannot make pizza"
+end
