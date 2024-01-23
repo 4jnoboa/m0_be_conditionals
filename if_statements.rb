@@ -58,7 +58,8 @@ num_quarters = 1
 
 if num_quarters >= 1
     puts " i have enough money for a gumball"
-else puts " i dont have enough money for a gumball"
+else 
+    puts " i dont have enough money for a gumball"
 end
 
 
@@ -79,10 +80,11 @@ end
 
 
 #You can change the variable in the data type and it will output on the terminal i can make pizza or i cannot based on the if the if statements conditionals meet the variable assignments rules
-cups_of_flour = 1
-has_sauce = "no"
+cups_of_flour = 4
+has_sauce = true
 
-if cups_of_flour > 0 && has_sauce == "yes"
+if cups_of_flour >= 2 && has_sauce
     puts "i can make pizza"
-else puts " i cannot make pizza"
+else 
+    puts " i cannot make pizza"
 end
