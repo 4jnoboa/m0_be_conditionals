@@ -66,19 +66,19 @@ puts 4 < 9
 books = 3
 puts 4 < books
 # YOU DO: we first assigned a variable to books, books now has the same value as the integer 3, therefor we are assigning a comparison operator to the terminal to see if the first integer 4 is
-smaller then the 2nd variable which now has a value of 3
+#smaller then the 2nd variable which now has a value of 3
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: we are assigning a variable to friends and siblings, both are integer data types
-therefor we are assigning a comparison operator to return a boolean in the terminal to see if friends data of 6 is greater then the 2nd variable which has an integer data of 2
+#therefor we are assigning a comparison operator to return a boolean in the terminal to see if friends data of 6 is greater then the 2nd variable which has an integer data of 2
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: we assigned two integer data types to each varible
-we now do a comparison operator to verify if the 1st data type which is an integer does not equal the 2nd variable which has an integer data type 
+#we now do a comparison operator to verify if the 1st data type which is an integer does not equal the 2nd variable which has an integer data type 
 
 
 
@@ -116,4 +116,4 @@ puts loves_to_play && puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER: we had to assign another variable which included the 2nd data type. i assigned a variable that meant if the age of the puppy is under 2, that equals puppy
-therfor the variable of puppy had a assignment of any age under 2 is a puppy
+#therfor the variable of puppy had a assignment of any age under 2 is a puppy
